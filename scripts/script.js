@@ -19,3 +19,9 @@ function populateList (list)
 let shoppingList = ["cheese", "bread", "green pepper"];
 
 populateList(shoppingList)
+
+function changeListStyle()
+{
+    unorderedListElement.classList.add("squareList");
+    unorderedListElement.classList.remove("circleList");
+}
