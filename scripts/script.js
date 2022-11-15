@@ -27,3 +27,27 @@ function changeListStyle()
 }
 
 changeListStyle()
+
+function updateImage()
+{
+    const imageElement = document.querySelector("#shoppingCart");
+    console.log(imageElement);
+    imageElement.src = 
+    imageElement.width = 100;
+    imageElement.height = 100;
+    imageElement.alt = "shopping cart icon"
+}
+updateImage();
+
+function findGreen ()
+{
+    const listItems = document.querySelectorAll(".shopping li")
+    for (let i = 0 ; i < listItems.length; i++)
+    {
+        if(listItems[i].textContent.includes("green")){
+            listItems[i].classList.add
+        }
+    }
+}
+
+findGreen();
