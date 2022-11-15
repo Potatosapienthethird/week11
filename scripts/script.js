@@ -25,3 +25,5 @@ function changeListStyle()
     unorderedListElement.classList.add("squareList");
     unorderedListElement.classList.remove("circleList");
 }
+
+changeListStyle()
